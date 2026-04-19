@@ -1,0 +1,67 @@
+# -------------------------
+# Flutter / Dart
+# -------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub/
+.pub-cache/
+build/
+coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# -------------------------
+# Android / iOS / macOS build artifacts
+# -------------------------
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# Keep signing keys and local secret config out of git
+android/key.properties
+android/app/my-release-key.jks
+
+# -------------------------
+# IDE / Editor
+# -------------------------
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.atom/
+
+# -------------------------
+# OS / misc temp files
+# -------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+*.temp
+*.log
+*.class
+*.pyc
+*.hprof
+*.lock
+
+# Keep lockfile tracked for apps. Ignore this only for packages.
+!pubspec.lock
+
+# -------------------------
+# Symbolication / obfuscation
+# -------------------------
+app.*.symbols
+app.*.map.json
+
+# -------------------------
+# Large media assets
+# -------------------------
+assets/**/*.mp3
+assets/**/*.m4a
+assets/**/*.aac
+assets/**/*.wav
+assets/**/*.ogg
+assets/**/*.pdf
